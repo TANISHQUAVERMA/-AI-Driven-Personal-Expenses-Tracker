@@ -1,0 +1,6 @@
+id,date,description,amount,merchant,category
+1,2025-11-22,Pizza order,350,Dominos,Food
+2,2025-11-21,Auto fare,80,Local Auto,Transport
+3,2025-11-20,Groceries,200,Kirana,Groceries
+4,2025-11-18,Coffee,120,Cafe,Food
+5,2025-11-15,Movie ticket,260,PVR,Entertainment
