@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Expense Tracker</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body class="dark">
+
+    <div class="sidebar glass">
+        <div class="sidebar-header">
+            <div class="app-logo">💼</div>
+            <h2>AI Expense</h2>
+        </div>
+
+        <div class="sidebar-menu">
+            <a href="/" class="menu-item">🏠 <span>Home</span></a>
+            <a href="/analytics" class="menu-item">📊 <span>Analytics</span></a>
+            <a href="/predictions" class="menu-item">🤖 <span>Predictions</span></a>
+            <a href="/history" class="menu-item">📜 <span>History</span></a>
+        </div>
+    </div>
+
+    <main class="main-content glass-main">
+        {% block content %}{% endblock %}
+    </main>
+<script src="/static/js/app.js?v=999"></script>
+
+</body>
+</html>

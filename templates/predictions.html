@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>Predicted Expenses</h1>
+
+<div class="card glass">
+    <table class="tx-table">
+        <tr><th>Category</th><th>Next Month</th></tr>
+        {% for p in preds %}
+        <tr>
+            <td>{{ p.category }}</td>
+            <td>₹{{ p.pred }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+
+{% endblock %}
